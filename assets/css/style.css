@@ -35,7 +35,7 @@ a {
 
 .main-content {
     height: 600px;
-    width: 900px;
+    width: 1000px;
     grid-area: main;
     background: linear-gradient(326deg, #5f0a87 0%, rgba(164, 80, 139, 0.8)74%),
     url("assets/img/vanilla-sky.jpg") center no-repeat;
