@@ -1,9 +1,41 @@
-
-
-
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /*---navigation---*/
+#navigation{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: -20px;
+}
+#navigation .navbar-brand img{
+    height: 30px;
+    padding-left: 30px;
+}
 
+#navigation .navbar-nav li{
+    padding: 0 10px;
+}
+
+#navigation .navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+
+#navigation ul li a:hover{
+    color: #007bff!important
+     
+}
+
+#navigation .navbar{
+    background: #fff
+}
+
+#navigation .navbar-toggler{
+border: none !important
+}
 /*--home--*/
 
 /*--about--*/
