@@ -45,6 +45,12 @@
 }
 
 /*--home--*/
+#home{
+    background: url(/assets/img/laptop-on-desk.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
 
 /*--about--*/
 
