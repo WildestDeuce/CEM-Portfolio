@@ -52,6 +52,42 @@
     background-position: center;
 }
 
+#home .container{
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #007bff;
+}
+
+#home p{
+    font-size: 20px;
+    letter-spacing: 5px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    color: #007bff;
+    font-weight: 500;
+}
+
+#home .social{
+    float: left;
+}
+
+#home .social .fa{
+    color: #555;
+    font-size: 20px;
+    margin-right: 30px;
+}
 /*--about--*/
 
 /*--contact--*/
