@@ -46,7 +46,7 @@
 
 /*--home--*/
 #home{
-    background: url(/assets/img/laptop-on-desk.jpg);
+    background: url("../img/laptop-on-desk.jpg");
     background-size: cover;
     height: 100vh;
     background-position: center;
@@ -66,7 +66,8 @@
     font-weight: 700;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #007bff;
+    color: #fff;
+    filter: drop-shadow(5px 5px 5px #00000080);
 }
 
 #home p{
@@ -75,8 +76,9 @@
     margin-top: 0;
     margin-bottom: 30px;
     text-transform: capitalize;
-    color: #007bff;
+    color: #fff;
     font-weight: 500;
+    filter: drop-shadow(5px 5px 5px #00000080);
 }
 
 #home .social{
@@ -84,9 +86,10 @@
 }
 
 #home .social .fa{
-    color: #555;
+    color: #fff;
     font-size: 20px;
     margin-right: 30px;
+    filter: drop-shadow(5px 5px 5px #00000080);
 }
 /*--about--*/
 
