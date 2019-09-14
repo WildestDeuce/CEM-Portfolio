@@ -160,4 +160,18 @@ h2 {
     height: auto;
 }
 
+#portfolio .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#portfolio .container .gallery{
+    margin-top: 40px;
+}
+
+#portfolio .container img{
+    height: 250px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
 /*--contact--*/
