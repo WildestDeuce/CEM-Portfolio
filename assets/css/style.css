@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-h2{
+h2 {
     text-align: center;
     font-size: 30px;
 }
@@ -107,7 +107,7 @@ h2{
 #about-laptop {
     width: 100%;
     height: auto;
-  }
+}
 
 #about .about-box {
     box-shadow: 0 0 0 15px rgba(221, 110, 6)inset;
@@ -117,7 +117,7 @@ h2{
     display: block;
 }
 
-#about .about-box .about-image{
+#about .about-box .about-image {
     position: relative;
 }
 
@@ -137,24 +137,27 @@ h2{
     width: 100%;
     z-index: 1;
     height: 100%;
-
 }
 
-#about .row .about-content{
+#about .row .about-content {
     margin-top: 80px;
     color: #000008;
     font-weight: 200;
 }
 
-.content-header{
-    color:#0d0d0d;
+.content-header {
+    color: #0d0d0d;
 }
 
-.content-body{
-    color:#0d0d0d;
+.content-body {
+    color: #0d0d0d;
 }
 
+/*--portfolio--*/
+
+.project-screen {
+    width: 100%;
+    height: auto;
+}
 
 /*--contact--*/
-
-/*--portfolio--*
