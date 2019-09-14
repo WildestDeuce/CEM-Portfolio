@@ -8,6 +8,12 @@ h2 {
     font-size: 30px;
 }
 
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
 /*---navigation---*/
 
 #navigation {
@@ -100,26 +106,35 @@ h2 {
 
 /*--about--*/
 
+
+
 #about .container {
     margin: 50px 0;
 }
 
 #about-laptop {
-    width: 100%;
-    height: auto;
+    width: 375px;
+    height: 400px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.about-image {
+    float:left;
 }
 
 #about .about-box {
-    box-shadow: 0 0 0 15px rgba(221, 110, 6)inset;
+    box-shadow: 0 0 0 15px rgba(221, 110, 6) inset;
     margin-right: 0;
     margin-top: 30px;
     position: relative;
     display: block;
 }
 
-#about .about-box .about-image {
+/* #about .about-box .about-image {
     position: relative;
-}
+} */
 
 #about .box-overlay {
     position: absolute;
@@ -140,9 +155,9 @@ h2 {
 }
 
 #about .row .about-content {
-    margin-top: 80px;
     color: #000008;
     font-weight: 200;
+    float: right;
 }
 
 .content-header {
