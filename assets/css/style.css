@@ -8,11 +8,11 @@ h2 {
     font-size: 30px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
+        background-color: lightblue;
     }
-  }
+}
 
 /*---navigation---*/
 
@@ -106,8 +106,6 @@ h2 {
 
 /*--about--*/
 
-
-
 #about .container {
     margin: 50px 0;
 }
@@ -121,7 +119,7 @@ h2 {
 }
 
 .about-image {
-    float:left;
+    float: left;
 }
 
 #about .about-box {
@@ -175,18 +173,25 @@ h2 {
     height: auto;
 }
 
-#portfolio .container{
+#portfolio .container {
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
-#portfolio .container .gallery{
+#portfolio .container .gallery {
     margin-top: 40px;
 }
 
-#portfolio .container img{
+#portfolio .container img {
     height: 250px;
     margin-bottom: 30px;
     cursor: pointer;
 }
+
 /*--contact--*/
+
+.fa-5 {
+    color: #0d0d0d;
+    font-size: 50px;
+    text-align: center
+}
