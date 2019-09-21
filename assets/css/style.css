@@ -190,8 +190,9 @@ h2 {
 
 /*--contact--*/
 
-.fa-5 {
+.fa-5x {
     color: #0d0d0d;
     font-size: 50px;
-    text-align: center
+    text-align: center;
+    display: block;
 }
